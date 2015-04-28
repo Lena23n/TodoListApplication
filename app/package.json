@@ -1,0 +1,14 @@
+{
+  "name": "shoppinglistapp",
+  "main": "public/index.html",
+  "version": "0.1.0",
+  "window": {
+    "title": "ShoppingList",
+    "toolbar": false,
+    "frame": true,
+    "max-width": 800,
+    "max-height": 800,
+    "height": 800,
+    "position": "center"
+  }
+}
