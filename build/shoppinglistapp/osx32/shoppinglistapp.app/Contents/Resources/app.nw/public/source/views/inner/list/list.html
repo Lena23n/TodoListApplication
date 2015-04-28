@@ -1,0 +1,16 @@
+<ol  data-template="true" id="item-list">
+    {{# console.log(model) }}
+    {{# _.each(model, function(item) { }}
+    <li {{= item.done ? 'class="done"' : '' }}>
+        <label>
+        <!--todo use class done here-->
+        <input class="toggle" type="checkbox" {{= item.done ? 'checked="checked"' : '' }} />
+        {{= item.title }} -
+        {{= item.quantity }}
+        </label>
+
+        <a class="destroy"><i class="fa fa-times"></i></a>
+    </li>
+    {{# }) }}
+</ol>
+
